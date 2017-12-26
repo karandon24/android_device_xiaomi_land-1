@@ -114,7 +114,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.fm.transmitter=false
+    ro.fm.transmitter=false \
+    ro.fingerprint.cleanup.unused=false
     
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
