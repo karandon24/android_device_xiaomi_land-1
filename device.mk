@@ -385,9 +385,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
-# Snap
+# Camera app
 PRODUCT_PACKAGES += \
-    Snap
+     MGC
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \
