@@ -381,13 +381,17 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/seccomp/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(DEVICE_PATH)/seccomp/mediaextractor-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediaextractor.policy
 
+<<<<<<< HEAD
 # Xiaomi Parts
 PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Snap
+=======
+# Camera app
+>>>>>>> de5d84d... land: Added Gcam as prebuild camera app
 PRODUCT_PACKAGES += \
-    Snap
+     MGC
 
 # TextClassifier smart selection model files
 PRODUCT_PACKAGES += \

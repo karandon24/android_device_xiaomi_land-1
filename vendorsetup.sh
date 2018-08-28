@@ -1,1 +1,1 @@
-add_lunch_combo rebellion_land-userdebug
+add_lunch_combo liquid_land-userdebug
