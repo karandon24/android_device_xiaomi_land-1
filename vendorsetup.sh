@@ -1,1 +1,1 @@
-add_lunch_combo lineage_land-userdebug
+add_lunch_combo stag_land-userdebug
