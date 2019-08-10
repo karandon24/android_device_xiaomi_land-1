@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common CarbonROM stuff.
-$(call inherit-product, vendor/rebellion/config/common.mk)
+$(call inherit-product, vendor/descendant/config/common_full_phone.mk)
 
 # Inherit from land device
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
-PRODUCT_NAME := rebellion_land
+PRODUCT_NAME := descendant_land
 PRODUCT_DEVICE := land
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
@@ -42,4 +42,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable
 BUILD_FINGERPRINT := "Xiaomi/land/land:6.0.1/MMB29M/V9.6.1.0.MALMIFD:user/release-keys"
 
-REBELLION_BUILD_TYPE := OFFICIAL
+
