@@ -385,6 +385,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     XiaomiParts
 
+# sony music
+PRODUCT_PACKAGES += \
+    musix
+
 # Camera app
 PRODUCT_PACKAGES += \
      MGC
